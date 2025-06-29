@@ -1,0 +1,15 @@
+# VS Code user-specific settings
+.vscode/settings.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Log files
+*.log

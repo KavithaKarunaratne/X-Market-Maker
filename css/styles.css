@@ -1,0 +1,93 @@
+body {
+  background-color: black;
+  padding: 2% 8%;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+.buytoken {
+  background: linear-gradient(
+    to right,
+    rgb(255, 77, 0),
+    rgb(248, 140, 17),
+    rgb(255, 77, 0)
+  );
+  color: white;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  border: none;
+}
+.hr {
+  margin-left: -10%;
+  margin-right: -10%;
+  opacity: 0.3;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.hero-title {
+  font-size: 9rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin: 0; /* Remove margin-top */
+}
+.hero-description {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+.join-telegram {
+  background: linear-gradient(
+    to right,
+    rgb(255, 77, 0),
+    rgb(248, 140, 17),
+    rgb(255, 77, 0)
+  );
+  color: white;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  border: none;
+}
+.telegram-users {
+  display: flex;
+
+  gap: -10rem;
+}
+.telegram-users img {
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  margin-left: -10px;
+}
+.hero-actions {
+  display: flex;
+
+  gap: 2rem;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
