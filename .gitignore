@@ -1,15 +1,54 @@
-# VS Code user-specific settings
-.vscode/settings.json
-
-# OS generated files
+# Operating System Files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 desktop.ini
 
-# Temporary files
-*.tmp
-*.temp
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
 *~
 
-# Log files
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build/Distribution Files
+dist/
+build/
+*.min.js
+*.min.css
+
+# Temporary Files
+*.tmp
+*.temp
 *.log
+
+# Backup Files
+*.backup
+*.bak
+
+# Archive Files
+*.zip
+*.tar.gz
+*.rar
+
+# Dependencies
+bower_components/
+
+# CSS Preprocessor Cache
+.sass-cache/
+*.css.map
+*.scss.map
+
+# Live Server Cache
+.vscode/settings.json
